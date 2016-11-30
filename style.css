@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+span.icon {
+  color: #599990;
+}
+*{
+  margin:0;
+  padding:0;
+}
+hr{
+  border:none;
+  background-color:#D7D7D7;
+  height:0.5px;
+  margin:20px 0px;
+  width:100%;
+  opacity:0.5;
+}
+.main-wrapper{
+ position:relative;
+  padding:40px;
+   background:#F8C255;
+  text-align:center;
+}
+.wrappper {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shadow{
+    -webkit-box-shadow: 0 10px 6px -6px #000;
+       -moz-box-shadow: 0 10px 6px -6px #000;
+            box-shadow: 0 10px 6px -6px #000;
+}
+.menu-block {
+  position: relative;
+  padding: 40px;
+  width: 450px;
+  max-width: 450px;
+  min-height: 500px;
+  margin-bottom: 20px;
+  margin:0 auto;
+  background-color:#1D283E;
+  background:url('https://images.unsplash.com/35/HHEvkhEsQLaNDRkui4fg_fullsize.jpg?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') 0 0 no-repeat;
+  background-position:center top;
+  background-size:cover;
+  opacity: 1;
+}
+div.menu-block::after {
+  clear: both;
+}
+.menu-block span.heading {
+  position: relative;
+  color: #E9EAE2;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  text-align:center;    
+}
+.menu-block ul {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin-top: 0px;
+  list-style: none;
+}
+.menu-block ul li {
+  float: left;
+}
+.menu-block ul li {
+  float: left;
+  min-width: 50%;
+  position: relative;
+}
+.menu-block ul li:nth-child(odd) {
+  clear: left;
+}
+.menu-block ul li a {
+  width: 100%;
+  height: 75px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #599990;
+  display: inline-block;
+  text-align: center;
+  margin:20px 0px;
+}
+.menu-block ul li a:hover{
+} 
+span.icon {
+  margin: 0 auto;
+  border-radius:25px;
+  width: 50px;
+  height: 50px;
+/*   background: #f5f5f5; */
+  display: block;
+  position: relative;
+  border:1px solid #599990;
+  margin-bottom:10px;
+}
+span.icon, span.menu-title {
+  display: block;
+  top: 40px;
+  bottom: 0;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+span.contributions{
+  position:relative;
+  top:15px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  color:#f2f2f2;
+}
